@@ -23,8 +23,10 @@ This project was built using HTML, CSS, and JavaScript. With the DOM connecting 
 
 ![Screenshot 2025-05-08 112351](https://github.com/user-attachments/assets/9c140107-6f62-4acb-b6d5-e074156fa13e)
 
+![Screenshot 2025-05-08 120643](https://github.com/user-attachments/assets/ecc0add7-8cee-4acd-ba08-a825b7462769)
+
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-[Link to todo-app repo](https://noathegenii.github.io/se_project_todo-app/)
+[Link to ToDo App](https://noathegenii.github.io/se_project_todo-app/)
