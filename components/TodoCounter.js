@@ -7,15 +7,15 @@ class TodoCounter {
     this._updateText();
   }
 
-  updateCompleted(todosArray) {
-    this._completed = todosArray.filter((todo) => todo.completed).length;
+  updateCompleted = (increment) => {
+    this._completed += increment ? 1 : -1;
     this._updateText();
-  }
+  };
 
-  updateTotal() {
-    this._total = this._todos.length;
+  updateTotal = (increment) => {
+    this._total += increment ? 1 : -1;
     this._updateText();
-  }
+  };
 
   _updateText() {
     this._element.textContent = `Showing ${this._completed} out of ${this._total} completed`;
